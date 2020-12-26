@@ -1,0 +1,160 @@
+.usuario-lista {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.usuario-lista article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.usuario-lista article p {
+    color: #999;
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.usuario-lista article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.usuario-lista article a:hover {
+    background:#da552f;
+    color: #fff;
+}
+
+.usuario-lista .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.usuario-lista .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.usuario-lista .actions button:hover {
+    opacity: 0.7;
+}
+
+.usuario-lista .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.usuario-lista .actions button:hover {
+    opacity: 0.7;
+}
+
+.usuario-lista .actions button[disabled]:hover {
+    opacity: 0.5;
+}
+
+.principal {
+    background: #cecece;
+    display: flex;
+}
+
+.item-style {
+    height: 100%;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.table-style {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.table-style h1 {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.table-button {
+    padding: 20px;
+}
+
+
+.cabecalho {
+    background: #5a5a5a;
+}
+
+.modal-style {
+    overflow-y: auto;
+}
+
+.modalVisualizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    background: #fff;
+    border: '2px solid #000';
+    box-shadow: 5;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.modalVisualizar h1 {
+    margin-top: 10px;
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.formulario-campo {
+    margin-right: 20px;
+}
+
+.formulario-campo-email {
+    margin-right: 20px;
+    width: 195%;
+}
+
+.separador {
+    margin-top: 20px;
+}
+
+.tabela-propriedades {
+    overflow-y: auto;
+}
+
+.salvar-cancelar-botoes {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.salvar-cancelar-botoes button {
+    padding: 10px;
+    margin-right: 20px;
+    width: 130px;
+}
