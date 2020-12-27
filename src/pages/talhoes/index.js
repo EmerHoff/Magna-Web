@@ -148,7 +148,7 @@ export default class Talhoes extends Component {
                     <TableCell align="center">{talhao.id}</TableCell>
                     <TableCell align="center">{talhao.nome}</TableCell>
                     <TableCell align="center">{talhao.kml}</TableCell>
-                    <TableCell align="center">{talhao.propriedade}</TableCell>
+                    <TableCell align="center">{talhao.propriedade.nome}</TableCell>
                     <TableCell align="center">{talhao.area}</TableCell>
                     <TableCell align="center">
                     <Button id={talhao.id} variant="outlined" className="table-button" onClick={this.handleOpen}>Visualizar</Button>
