@@ -32,9 +32,6 @@ export default class Main extends Component {
         <div className="principal">
           <MenuLateral />
           <h1>Tela Inicial</h1>
-          <div className="container" style={{ width: "600px" }}>
-            <UploadFile />
-          </div>
         </div>
       );
     }
