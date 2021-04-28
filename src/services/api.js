@@ -1,8 +1,8 @@
 import Axios from 'axios';
 import { getToken } from "./auth";
 
-const api = Axios.create({ baseURL: 'https://magnafarmapp.loca.lt' });
-//const api = Axios.create({ baseURL: 'http://localhost:3333' });
+//const api = Axios.create({ baseURL: 'https://magnafarmapp.loca.lt' });
+const api = Axios.create({ baseURL: 'http://localhost:3333' });
 
 api.interceptors.request.use(async config => {
     const token = getToken();
